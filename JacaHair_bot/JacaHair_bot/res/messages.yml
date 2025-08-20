@@ -1,0 +1,72 @@
+# 👋 Mensagens de boas-vindas e início
+start_message: |
+  🐊 Olá, tudo bem?
+  Sou o Jaca, seu assistente virtual!
+
+  Selecione uma das opções abaixo para interagir comigo.
+
+cancel_message: "🚫 Agendamento cancelado. Você pode recomeçar com /start."
+
+# 🛎️ Mensagens relacionadas a serviços
+no_services: "⛔ Nenhum serviço disponível no momento. Por favor, tente mais tarde."
+choose_service: "🐊 Por favor, escolha o serviço desejado:"
+invalid_service: "🚫 Serviço não encontrado. Por favor, escolha um serviço válido."
+
+# 📅 Mensagens relacionadas à data
+ask_date: "🐊 Agora, por favor, selecione a data desejada no calendário ou envie no formato *DD/MM/AAAA*:"
+invalid_date: "❌ Formato de data inválido. Por favor, use *DD/MM/AAAA*."
+past_date: "⚠️ Esta data já passou. Por favor, escolha uma data futura."
+
+# ⏰ Mensagens relacionadas ao horário
+choose_time: "🐊 Agora, selecione o horário desejado entre os disponíveis abaixo:"
+no_available_times: "⛔ Não há horários disponíveis para esta data. Tente outro dia."
+time_taken: "⛔ Este horário acabou de ser preenchido. Por favor, tente outro."
+
+# 👤 Informações do cliente
+insert_name: "🐊 Por favor, digite seu nome e sobrenome:"
+insert_phone: "🐊 Por favor, informe seu número de telefone com DDD. Exemplo: 11999999999."
+invalid_phone: "🐊 Telefone inválido. Por favor, digite seu DDD e somente números."
+insert_mail: "🐊 Por favor, digite seu email. Exemplo: nome@provedor.com:"
+invalid_email: "🐊 Email inválido, por favor tente novamente."
+
+# 👤 Características do cabelo
+choose_hair_color: "🐊 Por favor, informe a *cor do cabelo*:"
+choose_hair_type: "🐊 Agora, selecione o *tipo do cabelo*:"
+choose_hair_length: "🐊 Por fim, selecione o *tamanho do cabelo*:"
+
+# ✅ Confirmação de agendamento
+confirm_appointment: |
+  ✅ Confirme seu agendamento abaixo:
+
+  📌 Serviço: {service}
+  💵 Valor: {price}
+  📅 Data: {date}
+  ⏰ Hora: {time}
+  👤 Nome: {name}
+  📞 Telefone: {phone}
+  📧 Email: {email}
+  🎨 Cor do cabelo: {cor}
+  💇‍♀️ Tipo do cabelo: {tipo}
+  📏 Tamanho do cabelo: {tamanho}
+
+  Deseja confirmar?
+
+awaiting_confirmation: |
+  ⏳ *Seu agendamento foi registrado!*
+
+  Ele está *aguardando confirmação*.
+  Assim que for aprovado, você receberá uma mensagem aqui. Obrigado!
+
+booking_confirmed: |
+  ✅ *Agendamento confirmado!*
+
+  🐊 Serviço: {service_name}
+  🐊 Data: {appointment_date}
+  🐊 Valor: R$ {price}
+
+booking_error: "❌ Ocorreu um erro ao tentar agendar. Tente novamente."
+
+# 📤 Confirmação externa (SMS, e-mail, etc)
+confirmation_sent_sms: "📤 Detalhes enviados para confirmação externa via SMS."
+confirmation_received: "✅ Seu agendamento foi confirmado com sucesso!"
+confirmation_failed: "❌ A confirmação falhou. Por favor, tente novamente ou entre em contato."

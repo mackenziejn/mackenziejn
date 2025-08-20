@@ -1,0 +1,52 @@
+# ─── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ─── Banco de dados ─────────────────────────────────────
+*.db
+*.sqlite3
+
+# ─── Logs ───────────────────────────────────────────────
+*.log
+
+# ─── Ambiente virtual ───────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+
+# ─── Arquivos temporários ───────────────────────────────
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ─── Configurações locais ───────────────────────────────
+config.yml
+
+# ─── IDEs e editores ────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ─── Build / Distribuição ───────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# ─── Testes ─────────────────────────────────────────────
+htmlcov/
+.tox/
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+test-results.xml

@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.pythonPath": "venv/bin/python",
+    "editor.formatOnSave": true,
+    "terminal.integrated.env.linux": {
+      "PYTHONPATH": "${workspaceFolder}/src"
+    }
+  }
+}
